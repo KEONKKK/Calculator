@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: silver;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px;
+
+
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    color: whitesmoke;
+    background-color: black;
+    border: 200px;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 60px;
+     font-weight: bold;
+     cursor: pointer;
+}
+#calculator{
+
+    background-color: rgb(235, 107, 3);
+    max-width: 500px;
+    border-radius: 7%;
+    overflow: hidden;
+     
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-size: 5rem;
+    background: red;
+
+
+}
+button:hover{
+    background-color: silver;
+}
+button:active{
+    background-color: yellowgreen;
+}
+
+.usefullButtons{
+    background-color:  blue;
+
+
+}
